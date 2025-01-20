@@ -1,0 +1,24 @@
+1. A number and a string are two different types of data. You cannot "add" the number to 
+the string. They have to be combined through concatenation since they are two different types 
+of primitives.
+
+2. If your code is trying to determine if "12345" == 12345 and returns true when the first
+ was input by the user as a string, but your code is reading it as a number.
+
+3. Increment and decrement are sometimes confusing to me when you have to run them differently than with other operators. 
+    Example taken from JavaScript 7 Syntax and Operators:
+    
+    function mathSample () {
+        let price = 200;
+        let result = 0;
+    
+        result = price++;
+        console.log("result = price ++ =  " + result.toString());
+        console.log("price = " + price.toString());
+        result = ++price;
+        console.log("result = ++price =  " + result.toString());
+
+4. The modulus operator is useful when you need only even or odd numbers. You could use
+an if/then or if/else expression using the modulus operator followed by the number 2 to 
+identify an array of even or odd numbers within a range. You could use 0 as your value if 
+you were looking for evens, and 1 as your value if looking for odd numbers.
